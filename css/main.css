@@ -100,11 +100,19 @@ html {
 
 body {
     font-family: 'Roboto', helvetica, sans-serif;
-    padding-top: 5em;
+    margin: 0;
+    line-height: 1.6em;
 }
 
 a {
     text-decoration: none;
+}
+
+.btn {
+    border: 3px solid #B7C0C5;
+    padding: .15em 1em;
+    display: inline-block;
+    color: slategray;
 }
 
 img {
@@ -112,24 +120,32 @@ img {
 }
 
 .main-header {
+    border: 3px solid green;
     color: #B7C0C5;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    height: 15em;
+    display: block;
+    z-index: 100;
+    height: 12em;
+    background-color: #fff;
 }
 
 .main-header h1 {
     font-weight: 100;
     font-style: italic;
     font-size: 1.3em;
+    color: slategray;
     letter-spacing: .06em;
-    text-align: center
+    text-align: center;
+    
 }
 
 .main-header h2 {
-    text-align: center
+    text-align: center;
+    margin-top: 0;
+    padding: 1em 0;
 }
 
 .main-header .title {
@@ -139,7 +155,62 @@ img {
     letter-spacing: .08em;
 }
 
+.main-header .title:hover {
+    color: #5EDADD
+}
 
+/* begin main navigator */
+
+.main-nav {
+    width: 100%
+}
+
+.main-nav ul {
+    text-align: center;
+}
+
+.main-nav li {
+    display: inline-block;
+    padding: 0 2em
+}
+
+.main-nav .btn {
+    color: slategray;
+}
+
+.main-nav .btn:hover {
+    color: #5EDADD;
+    border-color: #5EDADD;
+}
+
+.main-content {
+    border 3px solid purple;
+    padding-top: 15em
+}
+
+.page-section .main-photo {
+    background-size: cover;
+    background-position: center;
+}
+
+.page-section {
+    padding: 5em;
+}
+
+.intro h2 {
+    text-align: center;
+    color: slategray;
+    letter-spacing: .04em;
+    font-weight: 400;
+}
+
+.intro p {
+    padding: 0 20em;
+    color: slategray;
+    font-weight: 100;
+    font-style: normal;
+    
+}
 
 
 
