@@ -95,7 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 html {
-    background-color: #fff;
+    background-color: #E1E1E1;
 }
 
 body {
@@ -120,7 +120,6 @@ img {
 }
 
 .main-header {
-    border: 3px solid green;
     color: #B7C0C5;
     width: 100%;
     position: fixed;
@@ -128,7 +127,8 @@ img {
     left: 0;
     display: block;
     z-index: 100;
-    height: 12em;
+    height: 15em;
+    margin: auto;
     background-color: #fff;
 }
 
@@ -185,16 +185,23 @@ img {
 
 .main-content {
     border 3px solid purple;
-    padding-top: 15em
-}
-
-.page-section .main-photo {
-    background-size: cover;
-    background-position: center;
+    padding-top: 18em
 }
 
 .page-section {
+    margin: auto;
     padding: 5em;
+    width: 70%;
+    background-color: #fff;
+}  
+
+.page-section h2 {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 1.3em;
+    color: slategray;
+    letter-spacing: .06em;
+    text-align: center;
 }
 
 .intro h2 {
@@ -209,8 +216,45 @@ img {
     color: slategray;
     font-weight: 100;
     font-style: normal;
-    
 }
+
+/* begin grid */
+
+.cabins {
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-footer {
+    text-align: center;
+    clear: both;
+}
+
 
 
 
