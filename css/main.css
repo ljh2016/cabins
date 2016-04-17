@@ -95,18 +95,55 @@ textarea {
    Author's custom styles
    ========================================================================== */
 html {
-    background-color: lightgray;
+    background-color: #fff;
+}
+
+body {
+    font-family: 'Roboto', helvetica, sans-serif;
+    padding-top: 5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
 }
 
 .main-header {
-    max-height: 100em
+    color: #B7C0C5;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 15em;
 }
 
-.main-header { 
-    background-image: url("../img/camp-background.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+.main-header h1 {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 1.3em;
+    letter-spacing: .06em;
+    text-align: center
 }
+
+.main-header h2 {
+    text-align: center
+}
+
+.main-header .title {
+    font-weight: 700;
+    color: #B7C0C5;
+    font-size: 2em;
+    letter-spacing: .08em;
+}
+
+
+
+
+
+
 
 
 
