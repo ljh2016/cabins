@@ -122,7 +122,7 @@ img {
     left: 0;
     display: block;
     z-index: 100;
-    height: 15em;
+    overflow: auto;
     margin: auto;
     width: 100%;
     background-color: #fff;
@@ -152,7 +152,7 @@ img {
 }
 
 .main-header .title:hover {
-    color: #5EDADD
+    color: #5EDADD;
 }
 
 /* begin main navigator */
@@ -172,52 +172,24 @@ img {
 
 .main-nav .btn {
     color: slategray;
+    border: 3px solid #B7C0C5;
+    padding: .5em 1em;
 }
 
 .main-nav .btn:hover {
     color: #5EDADD;
+     border: 3px solid #5EDADD;
 }
 
 /* begin main content */
 
-.page-section {
-    margin: auto;
-    padding: 5em;
-    overflow: auto;
-    background-color: #fff;
-}
-
-.page-section h2 {
-    color: #B7C0C5;
-    text-align: center;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2em;
-}
-
-.page-section .intro {
-    color: #B7C0C5;
-    font-size: 2em;
-    font-style: italic;
-    font-weight: 100;
-    text-align: center;
-    padding: 1em 0;
-}
-
-
-.page-section p {
-    padding: 0 10em;
-    color: slategray;
-    font-weight: 100;
-    font-style: normal;
-    padding-bottom: 2em;
-}
 
 /* begin grid */
 
 .page-section {
   background-color: gray;
   padding: 3em;
+    padding-top: 20em;
   overflow: auto;
   width: 100%;
 }
@@ -227,7 +199,7 @@ img {
   position: relative;
   width: 30%;
   padding: 0em;
-  border: 4px solid black;
+  border: 4px solid slategray;
   margin: 1em;
   background-color: white;
   display: block;
@@ -235,7 +207,7 @@ img {
 
 .pic {
   width: 100%;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid slategray;
  }
 
 .feature .price {
@@ -243,19 +215,20 @@ img {
   top: 0;
   left: 0;
   margin-left: 1em;
-  color: darkgray;
+  color: slategray;
 }
 
 .price {
-  border: 2px solid black;
+  border: 3px solid slategray;
   padding: .5em 1em;
-  background-color: white;
+  background-color: #B7C0C5;
 }
 
 .feature .name {
   text-align: center;
   margin: .5em;
   font-size: 1.5em;
+    color: #B7C0C5
 }
 
 .feature .quote {
@@ -294,16 +267,16 @@ img {
  }
 
 .info .look .btn {
-  text-decoration: none;
-  border: 2px solid black;
-  padding: .5em 1em;
-  color: lightgray
+    text-decoration: none;
+    color: slategray;
+    border: 3px solid #B7C0C5;
+    padding: .5em 1em;
+ 
 }
 
 .info .look .btn:hover {
-  border: 2px solid gray;
-  color: aqua;
-  background-color: lightgray;
+  color: #5EDADD;
+    border: 3px solid #5EDADD;
  }
 /* end grid */
 
@@ -331,7 +304,7 @@ img {
 }
 
 .content {
-  font-size: 4em;
+  font-size: 1em;
   font-weight: normal;
   margin: 0;
   color: #fff
