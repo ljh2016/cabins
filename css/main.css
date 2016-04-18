@@ -191,7 +191,7 @@ img {
 .page-section {
     margin: auto;
     padding: 5em;
-    width: 70%;
+    width: 80%;
     background-color: #fff;
 }  
 
@@ -222,29 +222,15 @@ img {
 
 .cabins {
     position: relative;
-    width: 50%;
+    width: 33.333%;
     float: left;
-    background-color: hsla(0,0%,0%,0.5);
 }
 
-.cabins .btn {
-    visibility: hidden
-}
-
-.cabins .btn:hover {
-    
-}
-
-.cabins:hover {
-    background-color: hsla(0, 100%, 100%, 0.5);
-}
-
-.cabins .pic {
+.cabins img {
     display: block;
     z-index: -10;
     position: relative;
     width: 100%;
-    background-color: hsla(0, 100%, 100%, 0.5);
 }
 
 .cabins h3 {
@@ -255,7 +241,6 @@ img {
     text-align: center;
     width: 100%;
     margin: 0;
-    visibility: hidden;
 }
 
 .projects:hover h3 {
