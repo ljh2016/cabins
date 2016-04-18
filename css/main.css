@@ -212,7 +212,7 @@ img {
 }
 
 .intro p {
-    padding: 0 20em;
+    padding: 0 10em;
     color: slategray;
     font-weight: 100;
     font-style: normal;
@@ -224,7 +224,47 @@ img {
     position: relative;
     width: 50%;
     float: left;
+    background-color: hsla(0,0%,0%,0.5);
 }
+
+.cabins .btn {
+    visibility: hidden
+}
+
+.cabins .btn:hover {
+    
+}
+
+.cabins:hover {
+    background-color: hsla(0, 100%, 100%, 0.5);
+}
+
+.cabins .pic {
+    display: block;
+    z-index: -10;
+    position: relative;
+    width: 100%;
+    background-color: hsla(0, 100%, 100%, 0.5);
+}
+
+.cabins h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    visibility: hidden;
+}
+
+.projects:hover h3 {
+    color: #5EDADD;
+}
+
+
+
+
 
 
 
