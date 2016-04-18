@@ -224,24 +224,30 @@ img {
     position: relative;
     width: 33.333%;
     float: left;
+    background: hsla(0,0%,0%,0.5);
 }
 
-.cabins img {
+ .article img {
     display: block;
     z-index: -10;
     position: relative;
     width: 100%;
 }
 
-.cabins h3 {
+.content {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: 100%;
     margin: 0;
 }
+
+.content h3
+.content p {
+    margin: 0
+}
+
 
 .projects:hover h3 {
     color: #5EDADD;
