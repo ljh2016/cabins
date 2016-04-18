@@ -183,7 +183,6 @@ img {
 
 .main-nav .btn:hover {
     color: #5EDADD;
-    border-color: #5EDADD;
 }
 
 /* begin main content */
@@ -196,7 +195,7 @@ img {
 .page-section {
     margin: auto;
     padding: 5em;
-    width: 80%;
+    overflow: auto;
     background-color: #fff;
 }
 
@@ -232,43 +231,51 @@ img {
     position: relative;
     width: 33.333%;
     float: left;
-    background: hsla(0,0%,0%,0.5);
 }
 
-.cabins:hover {
-    background-color: hsla(0,0%,100%,0.75);
-}
-
-.cabins h3 {
-    color: #B7C0C5
-}
-
-.cabins btn:hover {
-    visibility: visible;
-    color: #5EDADD;
-    border-color: #5EDADD;
-}
-
- .article img {
+.article img {
     display: block;
     z-index: -10;
     position: relative;
     width: 100%;
 }
 
-.content {
+.cabins h3 {
+    color: #B7C0C5;
+    text-align: center;
+}
+
+.cabins .btn {
+    visibility: hidden;
+}
+
+.cabins .btn:hover {
+    visibility: visible;
+    color: #5EDADD;
+    border-color: #5EDADD;
+}
+
+.cabins:hover {
+    background-color: hsl(120, 0%, 50%);
+}
+
+.article img {
+    display: block;
+    z-index: -10;
+    position: relative;
+    width: 100%;
+}
+
+.content h3{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     margin: 0;
+    width: 100%;
 }
 
-.content h3
-.content p {
-    margin: 0
-}
 
 
 
