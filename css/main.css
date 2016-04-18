@@ -119,6 +119,8 @@ img {
     max-width: 100%;
 }
 
+/* begin main header */
+
 .main-header {
     color: #B7C0C5;
     width: 100%;
@@ -129,6 +131,7 @@ img {
     z-index: 100;
     height: 15em;
     margin: auto;
+    width: 100%;
     background-color: #fff;
 }
 
@@ -183,6 +186,8 @@ img {
     border-color: #5EDADD;
 }
 
+/* begin main content */
+
 .main-content {
     border 3px solid purple;
     padding-top: 18em
@@ -193,29 +198,32 @@ img {
     padding: 5em;
     width: 80%;
     background-color: #fff;
-}  
+}
 
 .page-section h2 {
-    font-weight: 100;
-    font-style: italic;
-    font-size: 1.3em;
-    color: slategray;
-    letter-spacing: .06em;
+    color: #B7C0C5;
     text-align: center;
-}
-
-.intro h2 {
-    text-align: center;
-    color: slategray;
-    letter-spacing: .04em;
+    font-style: normal;
     font-weight: 400;
+    font-size: 2em;
 }
 
-.intro p {
+.page-section .intro {
+    color: #B7C0C5;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+.page-section p {
     padding: 0 10em;
     color: slategray;
     font-weight: 100;
     font-style: normal;
+    padding-bottom: 2em;
 }
 
 /* begin grid */
@@ -225,6 +233,20 @@ img {
     width: 33.333%;
     float: left;
     background: hsla(0,0%,0%,0.5);
+}
+
+.cabins:hover {
+    background-color: hsla(0,0%,100%,0.75);
+}
+
+.cabins h3 {
+    color: #B7C0C5
+}
+
+.cabins btn:hover {
+    visibility: visible;
+    color: #5EDADD;
+    border-color: #5EDADD;
 }
 
  .article img {
@@ -248,10 +270,6 @@ img {
     margin: 0
 }
 
-
-.projects:hover h3 {
-    color: #5EDADD;
-}
 
 
 
