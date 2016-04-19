@@ -108,6 +108,17 @@ a {
     text-decoration: none;
 }
 
+.btn {
+    color: slategray;
+    border: 3px solid #B7C0C5;
+    padding: .5em 1em;
+}
+
+.btn:hover {
+    color: #5EDADD;
+    border: 3px solid #5EDADD;
+}
+
 img {
     max-width: 100%;
 }
@@ -126,6 +137,7 @@ img {
     width: 100%;
     background-color: #fff;
     padding-bottom: 2em;
+    padding-top: 2em;
     background-color: lightgray
 }
 
@@ -153,7 +165,7 @@ img {
 }
 
 .main-header .title:hover {
-    color: #2E5662;
+    color: #fff;
 }
 
 /* begin main navigator */
@@ -171,16 +183,6 @@ img {
     padding: 0 2em
 }
 
-.main-nav .btn {
-    color: slategray;
-    border: 3px solid #B7C0C5;
-    padding: .5em 1em;
-}
-
-.main-nav .btn:hover {
-    color: #5EDADD;
-     border: 3px solid #5EDADD;
-}
 
 /* begin main content */
 
@@ -239,9 +241,10 @@ img {
 }
 
 .feature .name {
-  text-align: center;
-  margin: .5em;
-  font-size: 1.5em;
+    text-align: center;
+    margin: .5em;
+    font-size: 1.5em;
+    font-weight: 400;
     color: #B7C0C5
 }
 
@@ -279,17 +282,6 @@ img {
   right: 5%;
  }
 
-.info .look .btn {
-    color: slategray;
-    border: 3px solid #B7C0C5;
-    padding: .5em 1em;
- 
-}
-
-.info .look .btn:hover {
-  color: #5EDADD;
-    border: 3px solid #5EDADD;
- }
 /* end grid */
 
 /* begin jumbotron*/
@@ -327,13 +319,28 @@ img {
 .page-footer {
     text-align: center;
     clear: both;
+    position: relative;
+    overflow: hidden;
+    padding: 4em;
 }
 
-.page-footer .address {
-    text-align: left;
-    
+iframe {
+    position: absolute;
+    left: 1em;
+    top: 1em;
+}
 
+.page-footer p {
+    margin: 0;
+    color: slategray;
+    font-weight: 100;
     
+}
+
+.page-footer .btn {
+    position: absolute;
+    top: 40%;
+    right: 2em;
 }
 
 
